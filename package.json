@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/librbary/main-backend-node#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "moment": "^2.29.4"
   }
 }
