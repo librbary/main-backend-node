@@ -22,8 +22,11 @@ jobs:
         with:
           node-version: 16
 
+      - name: Install mocha
+        run: npm install -g mocha
+
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        uses: npm install
 
       - name: Run Tests
         run: npm run test
