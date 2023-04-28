@@ -4,7 +4,7 @@
   "description": "main-backend-node",
   "main": "app.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "test": "mocha --exit"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "dependencies": {
     "express": "^4.18.2",
     "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "expect": "^29.5.0",
+    "supertest": "^6.3.3"
   }
 }
