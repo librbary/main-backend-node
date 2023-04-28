@@ -3,6 +3,10 @@
 ## liBRBary Application
 > [liBRBary - Buy, Rental, Barter](https://librbary.github.io/librbary-buy-feature/).
 
+### Pre-requisite 
+* Install [Node v18.x](https://nodejs.org/en/download)
+
+
 ## Local workspace setup guidelines
 * After checking out your feature branch in your local, first install the packages using below command <br />
 ``` npm install ```
