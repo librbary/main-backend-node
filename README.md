@@ -13,16 +13,16 @@
 * As, we are using node v18.x, and Netlify is using downgraded version of node. So in case you are facing any "Hash" issues while running the project in local, you can follow below command <br />
 ``` export NODE_OPTIONS=--openssl-legacy-provider ```
 
-##### How to use Netlify in your local
+###### How to use Netlify in your local
 
-> ** Netlify base URL ** - https://develop--librbary.netlify.app
+> **Netlify base URL** - https://develop--librbary.netlify.app
 
-** API path ** - /.netlify/functions/app/<your-api>
+> **API path** - /.netlify/functions/app/(your-api)
 
-** Step 1: Install Netlify CLI ** <br />
+**Step 1: Install Netlify CLI** <br />
 ``` npm install netlify-cli -g ```
 
-** Step 2: Start local development server in repo directory ** <br />
+**Step 2: Start local development server in repo directory** <br />
 ``` netlify dev ```
 
 ## CI/CD Pipeline
